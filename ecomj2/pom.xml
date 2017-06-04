@@ -13,6 +13,19 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <distributionManagement>
+  <repository>
+    <id>satya_release</id>
+    <url>http://localhost:8081/nexus/content/repositories/satya_release</url>
+  </repository>
+</distributionManagement>
+
+<distributionManagement>
+  <snapshotRepository>
+    <id>satya_snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/satya_snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
